@@ -107,15 +107,32 @@ body {
 .information {
     display: flex;
     flex-direction: column;
+    margin-bottom: 122px;;
 }
 
 .boxes {
     display: flex;
     justify-content: center;
     gap: 40px;
-
 }
 
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    margin: 0;
+}
+
+.author {
+    font-weight: bold;
+    font-size: 24px;
+    text-align: right;
+}
+
+.quoteBox {
+    background-color: #E5E7EB;
+    padding: 100px 275px;
+}
 
 
 
