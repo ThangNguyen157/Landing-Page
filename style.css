@@ -1,9 +1,10 @@
 .header {
     width: 100%;
-    position: fixed;
-    display: flex;
     top: 0;
     left: 0;
+    position: fixed;
+    display: flex;
+    margin-top: 20px;
 }
 
 .linkList {
@@ -14,6 +15,7 @@
     display: flex;
     justify-content: flex-end;
     gap: 25px;
+    padding-right: 200px;
 } 
 
 a {
@@ -28,13 +30,58 @@ body {
 .logo {
     margin: 0;
     font-size: 24px;
-
+    padding-left: 200px;
 }
 
-.link {
+.link, .heroSubtext {
     font-size: 18px;
+    color: #E5E7EB;
 }
 
 .div1 {
     background-color: #1F2937;
 }
+
+.hero {
+    padding: 148px 200px 120px;
+    display: flex;
+    
+}
+
+.heroImage {
+    background-color: gray;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+.heroText {
+    flex: 1;
+}
+
+.heroMainText {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.logo, .heroMainText {
+    color: #F9FAF8;
+}
+
+.button {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    font-weight: bold;
+    padding: 7px 30px;
+    border-radius: 7px;
+    display: inline-block;
+    margin: 15px 0;
+    font-size: 18px;
+}
+
+
+
+
+
