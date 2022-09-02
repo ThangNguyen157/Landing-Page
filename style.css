@@ -4,7 +4,8 @@
     left: 0;
     position: fixed;
     display: flex;
-    margin-top: 20px;
+    padding-top: 20px;
+    background-color: #1F2937;
 }
 
 .linkList {
@@ -43,7 +44,7 @@ body {
 }
 
 .hero {
-    padding: 148px 200px 120px;
+    padding: 158px 200px 130px;
     display: flex;
     
 }
@@ -79,6 +80,40 @@ body {
     display: inline-block;
     margin: 15px 0;
     font-size: 18px;
+}
+
+.header2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+    margin: 40px 0;
+    text-align: center;
+}
+
+.box {
+    border: 4px solid #3882F6;
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+}
+
+.boxsubtext {
+    font-size: 18px;
+    color: gray;
+    width: 150px;
+    text-align: center;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+
 }
 
 
