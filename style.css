@@ -121,6 +121,7 @@ body {
     font-style: italic;
     color: #1F2937;
     margin: 0;
+    font-weight: 300;
 }
 
 .author {
@@ -172,7 +173,16 @@ body {
 }
 
 .call {
-    padding: 100px 185px;
+    margin: 100px 185px;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
